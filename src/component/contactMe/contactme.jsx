@@ -39,7 +39,7 @@ import Nav from "../Nav/contactNavbar";
                 </div>
                 <div className={Styles.contactForm}>
                     <h2>Send a message</h2>
-                    <form action="POST" data-netlify="true">
+                    <form method="POST" data-netlify="true">
                         <div className={Styles.formBox}>
                             <div className={Styles.inputBox}>
                                 <input type="text" name="Fname" required/>
