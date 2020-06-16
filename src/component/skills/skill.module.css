@@ -1,0 +1,471 @@
+.container{
+    background-color: #252627;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    font-family: 'PT Sans','sans-serif';
+    overflow: hidden;
+}
+.info{
+    width:50%;
+    padding-top: 50px;
+    padding-left: 200px;
+}
+ .info h1{
+    display: flex;
+    padding-bottom:60px;
+}
+h1 > span{
+    color:rgb(156, 250, 226);
+    font-size:75px;
+    font-weight: bold;
+    font-family: 'Trocchi';
+    text-shadow:11px 11px black, 
+                3px 3px black, 
+                4px 4px black, 
+                5px 5px black, 
+                6px 6px black, 
+                7px 7px black;
+}
+h1 > span:hover{
+    color: wheat;
+    animation: animate 2s linear;
+}
+@keyframes animate{
+    0%{
+        transform: translateY(0px);
+    }
+    10%{
+        transform: translateY(-20px);
+    }
+    20%{
+        transform: translateY(0px);
+    }
+}
+.info .card{
+    box-sizing: border-box;
+    width:600px;
+    height:650px;
+    padding-left:50px;
+    padding-top: 40px;
+    box-shadow: 5px 10px 15px 3px rgb(156, 250, 226);
+}
+.card > div{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.card span{
+    color:wheat;
+    font-size: 25px;
+    font-family: 'Trocchi';
+    font-weight: bold;
+    text-shadow:7px 7px black,
+                3px 3px black, 
+                4px 4px black, 
+                5px 5px black, 
+                6px 6px black, 
+                7px 7px black;
+}
+.card .bar{
+    box-sizing: border-box;
+    border-radius: 50px;
+    width:90%;
+    height:10px;
+    margin-top: 5px;
+    background-color: black;
+}
+.progress1{
+    box-sizing: border-box;
+    border-radius: 50px;
+    height:10px;
+    width:70%;
+    background-color: rgb(156, 250, 226);
+    animation:animate1 4s linear;
+}
+.progress2{
+    box-sizing: border-box;
+    border-radius: 50px;
+    height:10px;
+    width:60%;
+    background-color: rgb(156, 250, 226);
+    animation:animate2 4s linear;
+}
+.progress3{
+    box-sizing: border-box;
+    border-radius: 50px;
+    height:10px;
+    width:80%;
+    background-color: rgb(156, 250, 226);
+    animation:animate3 4s linear;
+}
+.progress4{
+    box-sizing: border-box;
+    border-radius: 50px;
+    height:10px;
+    width:70%;
+    background-color: rgb(156, 250, 226);
+    animation:animate4 4s linear;
+}
+.progress5{
+    box-sizing: border-box;
+    border-radius: 50px;
+    height:10px;
+    width:74%;
+    background-color: rgb(156, 250, 226);
+    animation:animate5 4s linear;
+}
+.progress6{
+    box-sizing: border-box;
+    border-radius: 50px;
+    height:10px;
+    width:50%;
+    background-color: rgb(156, 250, 226);
+    animation:animate6 4s linear;
+}
+@keyframes animate1{
+    0%{
+        width:0%;
+        background-color: rgb(156, 250, 226);
+    }
+    20%{
+        width:20%;
+        background-color: rgb(156, 250, 226);
+    }
+    40%{
+        width:40%;
+        background-color: rgb(156, 250, 226);
+    }
+    60%{
+        width:60%;
+        background-color: rgb(156, 250, 226);
+    }
+    70%{
+        width:70%;
+        background-color: rgb(156, 250, 226);
+    }
+}
+@keyframes animate2{
+    0%{
+        width:0%;
+        background-color: rgb(156, 250, 226);
+    }
+    20%{
+        width:20%;
+        background-color: rgb(156, 250, 226);
+    }
+    40%{
+        width:40%;
+        background-color: rgb(156, 250, 226);
+    }
+    60%{
+        width:60%;
+        background-color: rgb(156, 250, 226);
+    }
+}
+@keyframes animate3{
+    0%{
+        width:0%;
+        background-color: rgb(156, 250, 226);
+    }
+    20%{
+        width:20%;
+        background-color: rgb(156, 250, 226);
+    }
+    40%{
+        width:40%;
+        background-color: rgb(156, 250, 226);
+    }
+    60%{
+        width:60%;
+        background-color: rgb(156, 250, 226);
+    }
+    80%{
+        width:80%;
+        background-color: rgb(156, 250, 226);
+    }
+}
+@keyframes animate4{
+    0%{
+        width:0%;
+        background-color: rgb(156, 250, 226);
+    }
+    20%{
+        width:20%;
+        background-color: rgb(156, 250, 226);
+    }
+    40%{
+        width:40%;
+        background-color: rgb(156, 250, 226);
+    }
+    60%{
+        width:60%;
+        background-color: rgb(156, 250, 226);
+    }
+    70%{
+        width:70%;
+        background-color: rgb(156, 250, 226);
+    }
+}
+@keyframes animate5{
+    0%{
+        width:0%;
+        background-color: rgb(156, 250, 226);
+    }
+    20%{
+        width:20%;
+        background-color: rgb(156, 250, 226);
+    }
+    40%{
+        width:40%;
+        background-color: rgb(156, 250, 226);
+    }
+    60%{
+        width:60%;
+        background-color: rgb(156, 250, 226);
+    }
+    74%{
+        width:74%;
+        background-color: rgb(156, 250, 226);
+    }
+}
+@keyframes animate6{
+    0%{
+        width:0%;
+        background-color: rgb(156, 250, 226);
+    }
+    20%{
+        width:20%;
+        background-color: rgb(156, 250, 226);
+    }
+    40%{
+        width:40%;
+        background-color: rgb(156, 250, 226);
+    }
+    49%{
+        width:49%;
+        background-color: rgb(156, 250, 226);
+    }
+}
+[tooltip1],[tooltip2],[tooltip3],[tooltip4],[tooltip5],[tooltip6]{
+    position: relative;
+    cursor: default;
+}
+[tooltip1]::after{
+    position: absolute;
+    width:100px;
+    left:225px;
+    text-align: center;
+    box-sizing: border-box;
+    color:wheat;
+    bottom:25px;
+    content: attr(tooltip1);
+    background-color: black;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 11px;
+    font-weight: bold;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.3s, transform 0.2s;
+}
+[tooltip2]::after{
+    position: absolute;
+    width:100px;
+    left:225px;
+    text-align: center;
+    box-sizing: border-box;
+    color:wheat;
+    bottom:25px;
+    content: attr(tooltip2);
+    background-color: black;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 11px;
+    font-weight: bold;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.3s, transform 0.2s;
+}
+[tooltip3]::after{
+    position: absolute;
+    width:100px;
+    left:225px;
+    text-align: center;
+    box-sizing: border-box;
+    color:wheat;
+    bottom:25px;
+    content: attr(tooltip3);
+    background-color: black;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.3s, transform 0.2s;
+}
+[tooltip4]::after{
+    position: absolute;
+    width:100px;
+    left:225px;
+    text-align: center;
+    box-sizing: border-box;
+    color:wheat;
+    bottom:25px;
+    content: attr(tooltip4);
+    background-color: black;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 11px;
+    font-weight: bold;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.3s, transform 0.2s;
+}
+[tooltip5]::after{
+    position: absolute;
+    width:100px;
+    left:225px;
+    text-align: center;
+    box-sizing: border-box;
+    color:wheat;
+    bottom:25px;
+    content: attr(tooltip5);
+    background-color: black;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 11px;
+    font-weight: bold;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.3s, transform 0.2s;
+}
+[tooltip6]::after{
+    position: absolute;
+    width:100px;
+    left:225px;
+    text-align: center;
+    box-sizing: border-box;
+    color:wheat;
+    bottom:25px;
+    content: attr(tooltip6);
+    background-color: black;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.3s, transform 0.2s;
+}
+[tooltip1]:hover::after{
+    opacity: 1;
+    visibility:visible;
+    transform: translateY(0);
+}
+[tooltip2]:hover::after{
+    opacity: 1;
+    visibility:visible;
+    transform: translateY(0);
+}
+[tooltip3]:hover::after{
+    opacity: 1;
+    visibility:visible;
+    transform: translateY(0);
+}
+[tooltip4]:hover::after{
+    opacity: 1;
+    visibility:visible;
+    transform: translateY(0);
+}
+[tooltip5]:hover::after{
+    opacity: 1;
+    visibility:visible;
+    transform: translateY(0);
+}
+[tooltip6]:hover::after{
+    opacity: 1;
+    visibility:visible;
+    transform: translateY(0);
+}
+.wrap{
+    width:50%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    padding-top: 275px;
+    padding-right: 50px;
+    perspective: 800px;
+    perspective-origin: 50%,50%;
+    animation: left 1s linear;
+}
+@keyframes left{
+    0%{
+        transform: translateX(1000px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+.cube{
+    transform-style:preserve-3d;
+    width:300px;
+    height:300px;
+    margin: auto;
+    position: relative;
+}
+.cube div{
+    position: absolute;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 20px 3px black;
+    width: 300px;
+    height: 150px;
+    font-family: 'Trocchi';
+    opacity: 0.8;
+    text-align: center;
+    padding-top: 35px;
+    color: rgb(156, 250, 226);
+    font-size:50px ;
+    background-color:#252627;
+    text-shadow:7px 7px black, 
+                3px 3px black, 
+                4px 4px black, 
+                5px 5px black, 
+                6px 6px black, 
+                7px 7px black;
+}
+.front{
+    transform: rotateY(0deg) translateZ(300px);
+}
+.back{
+    transform: rotateY(60deg) translateZ(300px);
+}
+.left{
+    transform: rotateY(1200deg) translateZ(300px);
+}
+.right{
+    transform: rotateY(180deg) translateZ(300px);
+}
+.top{
+    transform: rotateY(240deg) translateZ(300px);
+}
+.buttom{
+    transform: rotateY(300deg) translateZ(300px);
+}
+@keyframes loop{
+    0%{
+        transform:rotateY(0deg);
+    }
+     100%{ 
+         transform:rotateY(360deg);
+    }
+}
+.cube{
+    animation: loop 10s linear infinite; 
+} 
