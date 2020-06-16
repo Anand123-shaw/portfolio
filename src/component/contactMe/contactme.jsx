@@ -39,7 +39,7 @@ import Nav from "../Nav/contactNavbar";
                 </div>
                 <div className={Styles.contactForm}>
                     <h2>Send a message</h2>
-                    <form method="POST" data-netlify="true">
+                    <form name="contact" method="post" netlify>
                         <div className={Styles.formBox}>
                             <div className={Styles.inputBox}>
                                 <input type="text" name="Fname" required/>
@@ -55,7 +55,7 @@ import Nav from "../Nav/contactNavbar";
                                 <small>Please enter a valid email</small>
                             </div>
                             <div className={Styles.inputBox}>
-                                <input type="text" name="Mnumber" required/>
+                                <input type="number" min="1" max="10" name="Mnumber" required/>
                                 <span>Mobile Number</span><br/>
                                 <small>I'll never share your number with anyone else</small>
                             </div>
